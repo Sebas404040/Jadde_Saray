@@ -1,0 +1,141 @@
+/* --- Configuración General y Fuentes --- */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+    font-family: 'Playfair Display', serif;
+    color: #2c003e;
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* --- Cabecera de Bienvenida --- */
+.hero {
+    background: linear-gradient(90deg, #8E2DE2, #4A00E0);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.hero h1 { color: white; }
+
+/* --- Estilos de la Barra de Navegación --- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #4A00E0, #8E2DE2);
+    padding: 0 30px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    display: block;
+    padding: 20px 15px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* --- Estructura de Tarjetas de Contenido --- */
+section {
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    overflow: hidden; /* Para que el fondo del h2 no se salga */
+}
+
+section h2 {
+    background: linear-gradient(90deg, #4A00E0, #8E2DE2);
+    color: white;
+    padding: 15px 25px;
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+article {
+    padding: 25px;
+}
+
+/* --- Contenedores de Autores --- */
+.authors-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.authors-container figure {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.authors-container img {
+    border-radius: 50%;
+    border: 3px solid #eee;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* --- Estilos de Tablas --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #e8dff5;
+    color: #4A00E0;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* --- Pie de Página --- */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #aaa;
+}
+footer p { margin: 5px 0; }
