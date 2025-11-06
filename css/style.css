@@ -84,7 +84,19 @@ section h2 {
 }
 
 article {
-    padding: 25px;
+    padding: 50px 40px; /* Aumentamos el padding lateral para dar más "aire" al texto */
+}
+
+article p, article li {
+    text-align: justify; /* Justificamos el texto para un look más ordenado */
+    color: #454545; /* Hacemos el texto un poco menos oscuro para confort visual */
+}
+
+article h3, article h4, article h5 {
+    margin-top: 2em; /* Añadimos más espacio arriba de los subtítulos */
+}
+article ul {
+    padding-left: 25px; /* Ajustamos el padding de las listas */
 }
 
 /* --- Contenedores de Autores --- */
