@@ -151,3 +151,15 @@ footer {
     color: #aaa;
 }
 footer p { margin: 5px 0; }
+
+/* --- Diseño Responsivo para Móviles --- */
+@media (max-width: 600px) {
+    .authors-container figure {
+        flex-direction: column; /* Apila la imagen y el texto verticalmente */
+        text-align: center;     /* Centra el texto de la descripción */
+    }
+
+    article {
+        padding: 25px 20px; /* Reduce el padding en pantallas pequeñas */
+    }
+}
